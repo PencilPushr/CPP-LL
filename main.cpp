@@ -1,6 +1,10 @@
 #include <iostream>
 
+#include "listNode.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    listNode library("The great gatsby");
+
     return 0;
 }

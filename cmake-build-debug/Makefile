@@ -129,29 +129,29 @@ LinkedLists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/build
 .PHONY : LinkedLists/fast
 
-linkedListNode.o: linkedListNode.cpp.o
-.PHONY : linkedListNode.o
+linkedList.o: linkedList.cpp.o
+.PHONY : linkedList.o
 
 # target to build an object file
-linkedListNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o
-.PHONY : linkedListNode.cpp.o
+linkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedList.cpp.o
+.PHONY : linkedList.cpp.o
 
-linkedListNode.i: linkedListNode.cpp.i
-.PHONY : linkedListNode.i
+linkedList.i: linkedList.cpp.i
+.PHONY : linkedList.i
 
 # target to preprocess a source file
-linkedListNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedListNode.cpp.i
-.PHONY : linkedListNode.cpp.i
+linkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedList.cpp.i
+.PHONY : linkedList.cpp.i
 
-linkedListNode.s: linkedListNode.cpp.s
-.PHONY : linkedListNode.s
+linkedList.s: linkedList.cpp.s
+.PHONY : linkedList.s
 
 # target to generate assembly for a file
-linkedListNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedListNode.cpp.s
-.PHONY : linkedListNode.cpp.s
+linkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/linkedList.cpp.s
+.PHONY : linkedList.cpp.s
 
 listNode.o: listNode.cpp.o
 .PHONY : listNode.o
@@ -210,9 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinkedLists"
-	@echo "... linkedListNode.o"
-	@echo "... linkedListNode.i"
-	@echo "... linkedListNode.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
 	@echo "... listNode.o"
 	@echo "... listNode.i"
 	@echo "... listNode.s"

@@ -92,31 +92,31 @@ CMakeFiles/LinkedLists.dir/listNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedLists.dir/listNode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/averagejoe/CLionProjects/LinkedLists/listNode.cpp -o CMakeFiles/LinkedLists.dir/listNode.cpp.s
 
-CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o: CMakeFiles/LinkedLists.dir/flags.make
-CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o: ../linkedListNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o -c /home/averagejoe/CLionProjects/LinkedLists/linkedListNode.cpp
+CMakeFiles/LinkedLists.dir/linkedList.cpp.o: CMakeFiles/LinkedLists.dir/flags.make
+CMakeFiles/LinkedLists.dir/linkedList.cpp.o: ../linkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedLists.dir/linkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedLists.dir/linkedList.cpp.o -c /home/averagejoe/CLionProjects/LinkedLists/linkedList.cpp
 
-CMakeFiles/LinkedLists.dir/linkedListNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedLists.dir/linkedListNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/averagejoe/CLionProjects/LinkedLists/linkedListNode.cpp > CMakeFiles/LinkedLists.dir/linkedListNode.cpp.i
+CMakeFiles/LinkedLists.dir/linkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedLists.dir/linkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/averagejoe/CLionProjects/LinkedLists/linkedList.cpp > CMakeFiles/LinkedLists.dir/linkedList.cpp.i
 
-CMakeFiles/LinkedLists.dir/linkedListNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedLists.dir/linkedListNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/averagejoe/CLionProjects/LinkedLists/linkedListNode.cpp -o CMakeFiles/LinkedLists.dir/linkedListNode.cpp.s
+CMakeFiles/LinkedLists.dir/linkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedLists.dir/linkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/averagejoe/CLionProjects/LinkedLists/linkedList.cpp -o CMakeFiles/LinkedLists.dir/linkedList.cpp.s
 
 # Object files for target LinkedLists
 LinkedLists_OBJECTS = \
 "CMakeFiles/LinkedLists.dir/main.cpp.o" \
 "CMakeFiles/LinkedLists.dir/listNode.cpp.o" \
-"CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o"
+"CMakeFiles/LinkedLists.dir/linkedList.cpp.o"
 
 # External object files for target LinkedLists
 LinkedLists_EXTERNAL_OBJECTS =
 
 LinkedLists: CMakeFiles/LinkedLists.dir/main.cpp.o
 LinkedLists: CMakeFiles/LinkedLists.dir/listNode.cpp.o
-LinkedLists: CMakeFiles/LinkedLists.dir/linkedListNode.cpp.o
+LinkedLists: CMakeFiles/LinkedLists.dir/linkedList.cpp.o
 LinkedLists: CMakeFiles/LinkedLists.dir/build.make
 LinkedLists: CMakeFiles/LinkedLists.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LinkedLists"

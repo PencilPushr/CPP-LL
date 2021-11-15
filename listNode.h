@@ -11,15 +11,22 @@
 class listNode {
 
 private:
-    listNode next;
+//if you want to send a letter you need an address, if you want to find the nextNode, you need the address of that node -> listNode needs to be a pointer.
+    listNode * next;
     std::string content;
 
 public:
     listNode(std::string s);
-    listNode(std::string s, listNode n);
+    listNode(std::string s, listNode* n);
 
-    listNode getNext();
+    listNode* getNext();
+    std::string getContent();
+    void linkToNext(listNode* n); //pointer for the link to the address
 
+    void push (std::string s);
+    std::string peekFirst();
+    std::string peekLast();
+    std::string pop();
 };
 
 
