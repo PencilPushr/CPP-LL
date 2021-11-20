@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#define output std::cout
 
 class listNode {
 
@@ -19,14 +20,17 @@ public:
     listNode(std::string s);
     listNode(std::string s, listNode* n);
 
+    //getters
     listNode* getNext();
     std::string getContent();
     void linkToNext(listNode* n); //pointer for the link to the address
 
-    void push (std::string s);
+    //functions
     std::string peekFirst();
     std::string peekLast();
-    std::string pop();
+    void push (std::string s);
+    std::string pop(); //dont use not finished
+
 };
 
 

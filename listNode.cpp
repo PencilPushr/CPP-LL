@@ -28,7 +28,6 @@ void listNode::linkToNext(listNode* n) {
 }
 
 void listNode::push (std::string s){
-    std::cout << "Cheeseburger" << std::endl;
     if (this->next == nullptr) {
         // This is the end node.
         this->next = new listNode(s);
@@ -44,7 +43,6 @@ std::string listNode::peekFirst(){
 }
 
 std::string listNode::peekLast(){
-    std::cout << "Cheeseburger" << std::endl;
     if (this->next == nullptr) {
         // This is the end node.
         return this->content;
@@ -54,6 +52,7 @@ std::string listNode::peekLast(){
         //this returns listNode* and calls peeklast until it is the last node
     }
 }
+
 
 std::string listNode::pop(){
     // Not yet done
