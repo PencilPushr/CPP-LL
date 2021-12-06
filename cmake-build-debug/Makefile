@@ -129,6 +129,30 @@ LinkedLists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/build
 .PHONY : LinkedLists/fast
 
+Stack.o: Stack.cpp.o
+.PHONY : Stack.o
+
+# target to build an object file
+Stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/Stack.cpp.o
+.PHONY : Stack.cpp.o
+
+Stack.i: Stack.cpp.i
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
 linkedList.o: linkedList.cpp.o
 .PHONY : linkedList.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinkedLists"
+	@echo "... Stack.o"
+	@echo "... Stack.i"
+	@echo "... Stack.s"
 	@echo "... linkedList.o"
 	@echo "... linkedList.i"
 	@echo "... linkedList.s"

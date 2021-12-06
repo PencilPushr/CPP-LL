@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LinkedLists.dir/Stack.cpp.o"
   "CMakeFiles/LinkedLists.dir/linkedList.cpp.o"
   "CMakeFiles/LinkedLists.dir/listNode.cpp.o"
   "CMakeFiles/LinkedLists.dir/main.cpp.o"
