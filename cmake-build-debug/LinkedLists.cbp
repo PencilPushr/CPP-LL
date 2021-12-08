@@ -103,6 +103,12 @@
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/main.cpp">
 			<Option target="LinkedLists"/>
 		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/tListNode.cpp">
+			<Option target="LinkedLists"/>
+		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/tListNode.h">
+			<Option target="LinkedLists"/>
+		</Unit>
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

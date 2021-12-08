@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/averagejoe/CLionProjects/LinkedLists/linkedList.cpp" "/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles/LinkedLists.dir/linkedList.cpp.o"
   "/home/averagejoe/CLionProjects/LinkedLists/listNode.cpp" "/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles/LinkedLists.dir/listNode.cpp.o"
   "/home/averagejoe/CLionProjects/LinkedLists/main.cpp" "/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles/LinkedLists.dir/main.cpp.o"
+  "/home/averagejoe/CLionProjects/LinkedLists/tListNode.cpp" "/home/averagejoe/CLionProjects/LinkedLists/cmake-build-debug/CMakeFiles/LinkedLists.dir/tListNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -225,6 +225,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tListNode.o: tListNode.cpp.o
+.PHONY : tListNode.o
+
+# target to build an object file
+tListNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tListNode.cpp.o
+.PHONY : tListNode.cpp.o
+
+tListNode.i: tListNode.cpp.i
+.PHONY : tListNode.i
+
+# target to preprocess a source file
+tListNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tListNode.cpp.i
+.PHONY : tListNode.cpp.i
+
+tListNode.s: tListNode.cpp.s
+.PHONY : tListNode.s
+
+# target to generate assembly for a file
+tListNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tListNode.cpp.s
+.PHONY : tListNode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tListNode.o"
+	@echo "... tListNode.i"
+	@echo "... tListNode.s"
 .PHONY : help
 
 
