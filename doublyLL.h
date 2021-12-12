@@ -8,8 +8,9 @@
 
 class doublyLL {
 private:
+    template <typename T>
     struct Node {
-        int data;
+        T data;
         struct Node* next;
         struct Node* prev;
     };
@@ -20,7 +21,7 @@ public:
     void frontInsert();
     void specInsert();
     void backInsert();
-    Node peekNode();
+    void peekNode();
     void displayList();
 
 };
