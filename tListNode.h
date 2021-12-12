@@ -15,7 +15,7 @@ private:
 
 public:
     tListNode();
-    //template<typename K, typename V = list<K> >
+    //template<typename K, typename V = list<K>>
     tListNode(T, std::vector<T> n);
 
     //getters
@@ -27,7 +27,7 @@ public:
     T peekFirst();
     T peekLast();
     void push (T data);
-    T pop(); //dont use not finished
+    T pop(); //dont use, not finished
 };
 
 

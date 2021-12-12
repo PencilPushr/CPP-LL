@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <exception>
+#include <stdexcept>
 
 template <class T>
 class Stack {

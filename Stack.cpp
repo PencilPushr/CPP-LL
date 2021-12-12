@@ -12,7 +12,7 @@ void Stack<T>::push(const T &elem) {
 template <class T>
 void Stack<T>::pop() {
     if (elements.empty()) {
-        throw out_of_range("Stack<>::pop(): empty stack");
+        throw std::out_of_range("Stack<>::pop(): empty stack");
     } else {
         elements.pop_back();
     }
@@ -21,7 +21,7 @@ void Stack<T>::pop() {
 template <class T>
 T Stack<T>::top() {
     if (empty()) {
-        throw out_of_range("Stack<>::top(): empty stack");
+        throw std::out_of_range("Stack<>::top(): empty stack");
     }
     return elements.back();
 }
