@@ -10,13 +10,13 @@ tListNode<T>::tListNode() {
 }
 
 template<class T>
-tListNode<T>::tListNode(T, std::vector<T> n) {
-
+tListNode<T>::tListNode(T content) {
+    this->content = content;
 }
 
 template<class T>
 T tListNode<T>::getContent() {
-    return nullptr;
+    return this->content;
 }
 
 template<class T>

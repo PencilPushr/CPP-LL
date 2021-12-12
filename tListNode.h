@@ -11,12 +11,13 @@ template <class T>
 class tListNode {
 private:
 //if you want to send a letter you need an address, if you want to find the nextNode, you need the address of that node -> listNode needs to be a pointer.
-    std::vector<T> next;
+    std::vector<T> next; //alt: ListNode* next
+    T content;
 
 public:
     tListNode();
     //template<typename K, typename V = list<K>>
-    tListNode(T, std::vector<T> n);
+    explicit tListNode(T);
 
     //getters
     std::vector<T> getNext();

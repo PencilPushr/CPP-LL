@@ -8,6 +8,7 @@
 
 class doublyLL {
 private:
+
     template <typename T>
     struct Node {
         T data;
