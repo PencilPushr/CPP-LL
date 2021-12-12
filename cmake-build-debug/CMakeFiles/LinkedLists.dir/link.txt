@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/LinkedLists.dir/main.cpp.o CMakeFiles/LinkedLists.dir/listNode.cpp.o CMakeFiles/LinkedLists.dir/linkedList.cpp.o CMakeFiles/LinkedLists.dir/Stack.cpp.o CMakeFiles/LinkedLists.dir/tListNode.cpp.o -o LinkedLists 
+/usr/bin/c++ -g CMakeFiles/LinkedLists.dir/main.cpp.o CMakeFiles/LinkedLists.dir/listNode.cpp.o CMakeFiles/LinkedLists.dir/linkedList.cpp.o CMakeFiles/LinkedLists.dir/Stack.cpp.o CMakeFiles/LinkedLists.dir/tListNode.cpp.o CMakeFiles/LinkedLists.dir/doublyLL.cpp.o -o LinkedLists 

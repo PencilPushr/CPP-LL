@@ -88,6 +88,12 @@
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/Stack.h">
 			<Option target="LinkedLists"/>
 		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/doublyLL.cpp">
+			<Option target="LinkedLists"/>
+		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/doublyLL.h">
+			<Option target="LinkedLists"/>
+		</Unit>
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/linkedList.cpp">
 			<Option target="LinkedLists"/>
 		</Unit>

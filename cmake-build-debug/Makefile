@@ -153,6 +153,30 @@ Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/Stack.cpp.s
 .PHONY : Stack.cpp.s
 
+doublyLL.o: doublyLL.cpp.o
+.PHONY : doublyLL.o
+
+# target to build an object file
+doublyLL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/doublyLL.cpp.o
+.PHONY : doublyLL.cpp.o
+
+doublyLL.i: doublyLL.cpp.i
+.PHONY : doublyLL.i
+
+# target to preprocess a source file
+doublyLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/doublyLL.cpp.i
+.PHONY : doublyLL.cpp.i
+
+doublyLL.s: doublyLL.cpp.s
+.PHONY : doublyLL.s
+
+# target to generate assembly for a file
+doublyLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/doublyLL.cpp.s
+.PHONY : doublyLL.cpp.s
+
 linkedList.o: linkedList.cpp.o
 .PHONY : linkedList.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... Stack.o"
 	@echo "... Stack.i"
 	@echo "... Stack.s"
+	@echo "... doublyLL.o"
+	@echo "... doublyLL.i"
+	@echo "... doublyLL.s"
 	@echo "... linkedList.o"
 	@echo "... linkedList.i"
 	@echo "... linkedList.s"
