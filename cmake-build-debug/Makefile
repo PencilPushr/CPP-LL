@@ -249,6 +249,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tLinkedList.o: tLinkedList.cpp.o
+.PHONY : tLinkedList.o
+
+# target to build an object file
+tLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tLinkedList.cpp.o
+.PHONY : tLinkedList.cpp.o
+
+tLinkedList.i: tLinkedList.cpp.i
+.PHONY : tLinkedList.i
+
+# target to preprocess a source file
+tLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tLinkedList.cpp.i
+.PHONY : tLinkedList.cpp.i
+
+tLinkedList.s: tLinkedList.cpp.s
+.PHONY : tLinkedList.s
+
+# target to generate assembly for a file
+tLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedLists.dir/build.make CMakeFiles/LinkedLists.dir/tLinkedList.cpp.s
+.PHONY : tLinkedList.cpp.s
+
 tListNode.o: tListNode.cpp.o
 .PHONY : tListNode.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tLinkedList.o"
+	@echo "... tLinkedList.i"
+	@echo "... tLinkedList.s"
 	@echo "... tListNode.o"
 	@echo "... tListNode.i"
 	@echo "... tListNode.s"

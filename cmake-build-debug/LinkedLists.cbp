@@ -109,6 +109,12 @@
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/main.cpp">
 			<Option target="LinkedLists"/>
 		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/tLinkedList.cpp">
+			<Option target="LinkedLists"/>
+		</Unit>
+		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/tLinkedList.h">
+			<Option target="LinkedLists"/>
+		</Unit>
 		<Unit filename="/home/averagejoe/CLionProjects/LinkedLists/tListNode.cpp">
 			<Option target="LinkedLists"/>
 		</Unit>
