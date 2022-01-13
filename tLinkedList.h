@@ -10,8 +10,14 @@ template <typename T>
 class tLinkedList {
 
 private:
-    tListNode<T> *startPtr; //stores the pointer of first object in the linked list
-    tListNode<T> *endPtr; //stored the pointer of the last object in the linked list
+    //Ptr VER:
+    //tListNode<T> *startPtr; //stores the pointer of first object in the linked list
+    //tListNode<T> *endPtr; //stored the pointer of the last object in the linked list
+
+    //Vector VER:
+    std::vector<tListNode<T>> List;
+    //std::vector<tListNode<T>> Tail;
+    
     bool isEmpty(); //utility functions used to see if the list contains no elements
     void insertBegin(T); //inserts new node before the first node in the list
     void insertEnd(T); //inserts new node after the last node in the list
