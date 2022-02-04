@@ -16,7 +16,6 @@ private:
 
     //Vector VER:
     std::vector<tListNode<T>> List;
-    //std::vector<tListNode<T>> Tail;
     
     bool isEmpty(); //utility functions used to see if the list contains no elements
     void insertBegin(T); //inserts new node before the first node in the list
@@ -28,6 +27,8 @@ public:
     void insertNewNode(T); //fucntion used to insert new node in order in the list
     void print(); //prints the contents of the linked list
     tListNode<T>* search(T); //searches for a value in the linked list and returns the point to object that contains that value
+    tListNode<T> getEndPtr();
+    tListNode<T> getStartPtr();
 
 };
 
